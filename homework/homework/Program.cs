@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace homework
+﻿namespace homework
 {
     internal class Program
     {
@@ -113,12 +107,31 @@ namespace homework
 
 
             ////(15)
-            string print(string[] arr)
-            {
-                return arr[0];
-            }
-            string[] salam = { "salalm", "sagol", "necesen" };
-            print(salam);
+            //void printfirstelement(string[] arr)
+            //{
+            //    if (arr.Length > 0)
+            //    {
+            //        Console.WriteLine("The first element of the array is: " + arr[0]);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("The array is empty.");
+            //    }
+            //}
+
+
+            ////(16)
+            //void printlastelement(string[] arr)
+            //{
+            //    if (arr.Length > 0)
+            //    {
+            //        Console.WriteLine("The first element of the array is: " + arr[-1]);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("The array is empty.");
+            //    }
+            //}
         }
     }
 }
